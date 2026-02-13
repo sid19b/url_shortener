@@ -5,7 +5,7 @@ function App() {
   const [shortUrl, setShortUrl] = useState("");
 
   const shortenUrl = async () => {
-    const response = await fetch("http://localhost:8000/shorten", {
+    const response = await fetch("http://98.81.233.70:8000/shorten", {
       method: "POST",
       headers: {
         "Content-Type": "application/json"
